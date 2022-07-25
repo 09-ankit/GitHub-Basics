@@ -1,0 +1,40 @@
+Push in Master Branch
+-----------------------
+1. git init
+2. git remote add origin TextFiles.git (Connection build)
+3. git add .
+4. git commit -m "Test"
+5. git remote set-url origin https://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@github.com/09-ankit/TextFiles.git (Token+RepoName)
+6. git push origin master
+
+
+Push other than master Branch
+-------------------------
+1. git checkout alfa
+2. git branch -a
+3. git status
+4. git add .
+5  git commit -m "Test"
+6. git push origin alfa
+
+
+
+Pull Request in  master Branch
+-------------------------
+1. git status
+2. git fetch
+3. git branch -a
+4. git pull origin master
+
+
+
+Pull Request in  master Branch
+-------------------------
+1. git status
+2. git fetch
+3. git branch -a
+4. git pull origin alfa
+
+For Updating Changes localSystem to Git
+------------------------------------------
+1. follow Steps Same as 1 and 2
